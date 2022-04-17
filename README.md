@@ -1,5 +1,5 @@
 # Pengenalan/Introduction
-tool deface poc upload webdev by AoxDeface / Available in Malay
+tool deface poc upload webdav by AoxDeface / Available in Malay
 
 - webdef itu nama rekaan saya
 # Read First(en)
@@ -8,7 +8,7 @@ tool deface poc upload webdev by AoxDeface / Available in Malay
 - using terminal
 
 # Baca Dulu(malay)
-- Pastikan , target awak ialah vuln pada upload webdev(takde masa nak terang webdev)
+- Pastikan , target awak ialah vuln pada upload webdav(takde masa nak terang webdev)
 - tool ini menggunakan python versi 2 dan python versi 3
 - gunakan terminal 
 
