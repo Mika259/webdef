@@ -10,10 +10,9 @@ except ImportError:
    exit("pasang permohonan dan cuba lagi ...")
 os.system("clear")
 os.system("figlet WEBDEF")
-print ("*Edit File 'target.txt' dengan type 'nano target.txt' dan masukkan link target..")
+print ("*Keluar dengan 'CTRL+Z' dan Edit File 'target.txt' dengan type 'nano target.txt' dan masukkan link target..")
 contoh = """
 contoh di dalam target.txt:
-
 http://contoh.com
 http://contoh1.com
 http://contoh2.com
