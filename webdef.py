@@ -2,6 +2,18 @@
 #remake from Aox Deface
 #Malay Language
 
+#color preference
+
+    BLACK   = '\033[30m'
+    RED     = '\033[31m'
+    GREEN   = '\033[32m'
+    YELLOW  = '\033[33m'
+    BLUE    = '\033[34m'
+    MAGENTA = '\033[35m'
+    CYAN    = '\033[36m'
+    WHITE   = '\033[37m'
+    RESET   = '\033[39m'
+
 try:
    import requests
    import os.path
@@ -9,7 +21,15 @@ try:
 except ImportError:
    exit("pasang permohonan dan cuba lagi ...")
 os.system("clear")
-os.system("figlet WEBDEF")
+webe = """
+_         _       __
+__      _____| |__   __| | ___ / _|
+\ \ /\ / / _ \ '_ \ / _` |/ _ \ |_
+ \ V  V /  __/ |_) | (_| |  __/  _|
+  \_/\_/ \___|_.__/ \__,_|\___|_|
+
+"""
+print(YELLOW+"webe")
 print ("*Keluar dengan 'CTRL+Z' dan Edit File 'target.txt' dengan type 'nano target.txt' dan masukkan link target..")
 contoh = """
 contoh di dalam target.txt:
