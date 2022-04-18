@@ -29,7 +29,7 @@ __      _____| |__   __| | ___ / _|
   \_/\_/ \___|_.__/ \__,_|\___|_|
 
 """
-print(YELLOW+"webe")
+print(YELLOW+webe)
 print ("*Keluar dengan 'CTRL+Z' dan Edit File 'target.txt' dengan type 'nano target.txt' dan masukkan link target..")
 contoh = """
 contoh di dalam target.txt:
