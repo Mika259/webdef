@@ -19,17 +19,9 @@ try:
    import os.path
    import sys
 except ImportError:
-   exit("pasang permohonan dan cuba lagi ...")
+   exit("pasang request dan cuba lagi !")
 os.system("clear")
-webe = """
-_         _       __
-__      _____| |__   __| | ___ / _|
-\ \ /\ / / _ \ '_ \ / _` |/ _ \ |_
- \ V  V /  __/ |_) | (_| |  __/  _|
-  \_/\_/ \___|_.__/ \__,_|\___|_|
-
-"""
-print(YELLOW+webe)
+os.system("toilet -F border --metal -f mono12 WEBDEF")
 print ("*Keluar dengan 'CTRL+Z' dan Edit File 'target.txt' dengan type 'nano target.txt' dan masukkan link target..")
 contoh = """
 contoh di dalam target.txt:
